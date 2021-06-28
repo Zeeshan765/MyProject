@@ -1,0 +1,72 @@
+.singledata{
+
+    flex:12;
+}
+
+.singledataWrapper{
+    padding: 20px;
+    padding-right: 5;
+    padding-left: 5;
+}
+
+.singledataimg{
+    
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singledatatitle{
+
+    text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Lora", sans-serif;
+}
+
+.singledataEdit{
+
+    float: right;
+  font-size: 30px;
+}
+.singledataIcon{
+
+    margin-left: 20px;
+  cursor: pointer;
+}
+.singledataIcon:first-child {
+    color: rgb(105, 128, 0);
+}
+.singledataIcon:last-child {
+    color: tomato;
+}
+
+
+.singledataInfo{
+
+    margin-bottom: 20px;
+  display: flex;
+  font-size: 20px;
+  color: #be5656;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.singledatAuthor{
+
+    margin-left: 8px;
+}
+
+.singledataDesc{
+
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
+.singledataDesc:first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
